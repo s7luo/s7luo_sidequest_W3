@@ -30,7 +30,7 @@ function drawLose() {
   // Restart Instruction
   textSize(18);
   fill(255);
-  text("[ Click or Press R to Restart ]", width / 2, 550);
+  text("[ Click to Restart ]", width / 2, 550);
 }
 
 // ---- Input Handling ----
@@ -40,9 +40,3 @@ function loseMousePressed() {
   currentScreen = "start";
 }
 
-function loseKeyPressed() {
-  if (key === 'r' || key === 'R') {
-    systemHealth = 100;
-    currentScreen = "start";
-  }
-}

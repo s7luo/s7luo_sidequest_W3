@@ -30,7 +30,7 @@ function drawWin() {
   // Restart Instruction
   textSize(18);
   fill(255);
-  text("[ Click or Press R to Restart ]", width / 2, 550);
+  text("[ Click to Restart ]", width / 2, 550);
 }
 
 // ---- Input Handling ----
@@ -38,8 +38,3 @@ function winMousePressed() {
   currentScreen = "start";
 }
 
-function winKeyPressed() {
-  if (key === 'r' || key === 'R') {
-    currentScreen = "start";
-  }
-}

@@ -1,8 +1,15 @@
-html, body {
+/* style.css */
+body {
   margin: 0;
   padding: 0;
+  background-color: #222; /* Dark background for retro feel */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 canvas {
-  display: block;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.2); /* Retro glow */
 }
+
